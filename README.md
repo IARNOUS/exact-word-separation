@@ -29,7 +29,7 @@ python verify_counterexample.py
 
 ## Citation
 
-I. Arnous, *A Counterexample to Exact Word Separation by Two-State Quantum Finite Automata*, preprint, November 2026. [Zenodo record](https://zenodo.org/records/24549414).
+I. Arnous, *A Counterexample to Exact Word Separation by Two-State Quantum Finite Automata*, preprint, November 2026. [https://doi.org/10.5281/zenodo.24549414](https://doi.org/10.5281/zenodo.24549414).
 
 ## License
 
