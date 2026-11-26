@@ -16,7 +16,7 @@ The manuscript proves that the minimum relative trace over SU(2) is 47/64. The p
 
 ## Running the code
 
-Use Python 3.11 or later.
+Tested with Python 3.13.5, NumPy 2.3.5 and SymPy 1.14.0. Use the pinned dependencies in `requirements.txt`.
 
 ```bash
 python -m pip install -r requirements.txt
@@ -29,7 +29,11 @@ python verify_counterexample.py
 
 ## Citation
 
-I. Arnous, *A Counterexample to Exact Word Separation by Two-State Quantum Finite Automata*, manuscript draft, November 2026.
+I. Arnous, *A Counterexample to Exact Word Separation by Two-State Quantum Finite Automata*, preprint, November 2026. [Zenodo record](https://zenodo.org/records/24549414).
+
+## License
+
+The verification software is available under the MIT license (see `LICENSE`).
 
 ## Disclosure and reproducibility
 
