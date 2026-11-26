@@ -1,35 +1,36 @@
-# Exact word separation — Manuscript 1
+# Exact word separation
 
-**Ibrahim Arnous — Embry-Riddle Aeronautical University**
+Ibrahim Arnous  
+Embry-Riddle Aeronautical University, Daytona Beach, Florida, USA
 
-Computational companion to *A Counterexample to Exact Word Separation by Two-State Quantum Finite Automata* (25 November 2026), a research manuscript awaiting independent review.
+Code accompanying the manuscript *A Counterexample to Exact Word Separation by Two-State Quantum Finite Automata* (November 2026).
 
-The exhibited binary words are:
+The counterexample is the pair
 
 ```
 u = abbabaabbababa
 v = bababaabbabaab
 ```
 
-Their relative SU(2) trace has a sharp global minimum of 47/64, as proved analytically in the manuscript. This repository contains the supplementary exact symbolic and exhaustive computational certificate, not the main analytical proof.
+The manuscript proves that the minimum relative trace over SU(2) is 47/64. The proof is analytical and does not rely on the code in this repository. The code verifies the trace identity and checks the minimality and classification of the length-14 counterexamples.
 
-## Reproduce
+## Running the code
 
-Python 3.11 or later is recommended.
+Use Python 3.11 or later.
 
 ```bash
 python -m pip install -r requirements.txt
 python verify_counterexample.py
 ```
 
-- `verify_counterexample.py`: symbolic trace identity and exact integer-quaternion checks of trimmed equal-composition pairs through length 14.
-- `verification.log`: recorded successful execution.
-- `requirements.txt`: pinned NumPy and SymPy dependencies.
+- `verify_counterexample.py`: symbolic and exact integer-arithmetic verification.
+- `verification.log`: recorded verification results.
+- `requirements.txt`: Python dependencies.
 
-The program certifies the reported minimum counterexample length and the four unordered length-14 counterexamples. The manuscript also derives exact three-state real-amplitude separation for the exhibited pair, the optimal equal-prior two-state error, and an infinite family by positive power substitution. The universal three-state question remains open.
+## Citation
 
-## Citation and status
+I. Arnous, *A Counterexample to Exact Word Separation by Two-State Quantum Finite Automata*, manuscript draft, November 2026.
 
-Arnous, Ibrahim (2026). *A Counterexample to Exact Word Separation by Two-State Quantum Finite Automata*. Manuscript 1. Zenodo DOI to be added following deposit.
+## Disclosure and reproducibility
 
-This is research code accompanying an independently unrefereed manuscript. Publication priority is pending verification. Generative AI (OpenAI ChatGPT) assisted substantively in discovery, proof development, writing and verification code, as disclosed in the manuscript. No license has been selected yet.
+Generative AI was used to assist with the development and checking of computational code, mathematical exposition, and preparation of the manuscript in LaTeX. The authors are responsible for the mathematical arguments, results, and conclusions presented herein. This manuscript is a draft circulated for expert feedback and has not been peer reviewed.
