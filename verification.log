@@ -1,0 +1,20 @@
+PASS: exact symbolic trace factorization and attaining trace 47/64.
+n= 2 trimmed pairs=       1, after dihedral=     0, remaining=0
+n= 3 trimmed pairs=       2, after dihedral=     0, remaining=0
+n= 4 trimmed pairs=       7, after dihedral=     1, remaining=0
+n= 5 trimmed pairs=      26, after dihedral=     2, remaining=0
+n= 6 trimmed pairs=      98, after dihedral=     6, remaining=0
+n= 7 trimmed pairs=     372, after dihedral=    18, remaining=0
+n= 8 trimmed pairs=    1419, after dihedral=    61, remaining=0
+n= 9 trimmed pairs=    5434, after dihedral=   200, remaining=0
+n=10 trimmed pairs=   20878, after dihedral=   692, remaining=0
+n=11 trimmed pairs=   80444, after dihedral=  2358, remaining=0
+n=12 trimmed pairs=  310726, after dihedral=  8278, remaining=0
+n=13 trimmed pairs= 1202852, after dihedral= 28870, remaining=0
+PASS: every distinct binary pair of maximum length <=13 is exactly separable.
+n=14 trimmed pairs= 4665412, after dihedral=102622, remaining=5
+PASS: precisely four unordered inseparable binary pairs at length 14:
+abbabaabbababa bababaabbabaab
+abbaabababbaba babaabababbaab
+ababbababaabba baabbababaabab
+abababbaababba baababbaababab
