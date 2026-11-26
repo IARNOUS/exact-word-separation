@@ -1,3 +1,6 @@
+Python: 3.13.5
+NumPy: 2.3.5
+SymPy: 1.14.0
 PASS: exact symbolic trace factorization and attaining trace 47/64.
 n= 2 trimmed pairs=       1, after dihedral=     0, remaining=0
 n= 3 trimmed pairs=       2, after dihedral=     0, remaining=0
